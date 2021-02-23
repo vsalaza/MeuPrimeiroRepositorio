@@ -1,2 +1,4 @@
 # MeuPrimeiroRepositorio
- primerio respositorio
+ primerio respositorio 
+
+ aprendendo a mexer com repositorios
