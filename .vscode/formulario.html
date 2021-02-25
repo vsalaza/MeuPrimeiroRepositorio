@@ -1,0 +1,100 @@
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css">
+        <title>Document</title>
+    </head>
+    <body>
+        
+        <div>
+            <h1 id="titulo" >cadastro de DEVs</h1>
+            <p id="subtitulo">Complete suas informçoes</p>
+    
+        </div>
+    
+        <form>
+            <fieldset class="grupo">
+                <div>
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" required>
+                </div>
+    
+                <div>
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text" name="sobrenome" id="sobrenome" required >
+                </div>    
+            </fieldset>
+    
+            <div class="campo">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+    
+            <div class="campo">
+                <label>de qual lado da aplicaçao voce desenvolve</label>
+                <label>
+                    <input type="radio" name="devweb" value="frontend"> front end
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="backend"> back end
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="fullstaker"> fullstaker
+                </label>
+            </div>
+    
+            <div class="campo">
+                <label for="senioridade"> senioridade></label>
+                <select id="senioridade">
+                    <option selected disabled value="">Selecione</option>
+                    <option >junior</option>
+                    <option >plenos</option>
+                    <option >senior</option>
+                </select>
+            </div>
+            <fieldset class="grupo">
+                <div id="check">
+                    <label>selecione as tecnologias que utiliza</label><br><br>
+                  
+                    <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+                    <label for="tecnologia1">HTML</label>
+                    <input type="checkbox" id="tecnologia2" name="tecnologia2" value="HTML">
+                    <label for="tecnologia2">CSS</label>
+                    <input type="checkbox" id="tecnologia3" name="tecnologia3" value="HTML">
+                    <label for="tecnologia3">C++</label>
+                    <input type="checkbox" id="tecnologia4" name="tecnologia4" value="HTML">
+                    <label for="tecnologia4">javascript</label>
+                    <input type="checkbox" id="tecnologia5" name="tecnologia5" value="HTML">
+                    <label for="tecnologia5">php</label>
+                    <input type="checkbox" id="tecnologia6" name="tecnologia6" value="HTML">
+                    <label for="tecnologia6">python</label>
+                    <input type="checkbox" id="tecnologia7" name="tecnologia7" value="HTML">
+                    <label for="tecnologia7">java</label>
+                   
+                </div>
+            </fieldset>
+    
+                <div>
+                    <br>
+                    <label>conte um pouco da sua experiencia</label>
+                    <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+                  </div>
+    
+                  <button class="botao"> Concluido</button>
+    
+            
+    
+            
+       
+        </form>
+         
+    <footer>
+       <p> &coopy 2021 vitor cicote </p>
+    </footer>
+    
+    
+    </body>
+    </html>
